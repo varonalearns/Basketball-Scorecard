@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Cursed Timer ULil';
+    src: url('resources/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h3 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #064E3B;
+}
+.number {
+    background-color: #080001;
+    color: #F94F6D; 
+}
