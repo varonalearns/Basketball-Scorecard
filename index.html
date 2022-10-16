@@ -12,19 +12,20 @@
     <div class="container">
         <div class="score-card">
             <h3>HOME</h3>
-            <div class="score">0</div>
+            <div id="homeCount" class="score">0</div>
             <div class="points">
-                <span class="point">+1</span><span class="point">+2</span><span class="point">+3</span>
+                <span class="point" onclick="increment1home()">+1</span><span class="point" onclick="increment2home()">+2</span><span class="point" onclick="increment3home()">+3</span>
             </div>
         </div>
         <div class="score-card">
             <h3>GUEST</h3>
-            <div class="score">0</div>
+            <div id="guestCount" class="score">0</div>
             <div class="points">
-                <span class="point">+1</span><span class="point">+2</span><span class="point">+3</span>
+                <span class="point" onclick="increment1guest()">+1</span><span class="point" onclick="increment2guest()">+2</span><span class="point" onclick="increment3guest()">+3</span>
             </div>
         </div>
     </div>
+    <button onclick="reset()">RESET</button>
     <script src="index.js"></script>
 </body>
 </html>
